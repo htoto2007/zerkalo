@@ -1,0 +1,46 @@
+@import url("webfonts/Segoe_Print/stylesheet.css");
+/* CSS Document */
+
+body{
+	background-image:url(/img/Безымянный.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-style: normal;
+	font-weight: 400;
+	font-family: "Segoe Print";
+	color: aliceblue;
+	background-color: black;
+}
+
+div.video {position:relative;padding-bottom:56.25%;/*пропорции видео 16:9 */padding-top:25px;height:0;}
+div.video iframe {position:absolute;top:0;left:0;width:100%;height:100%;}
+
+.card{
+	background-color: transparent;
+}
+
+nav,
+article div.container{
+	background-color: rgba(0,0,0,0.80);
+}
+
+footer div.container{
+	background-color: rgba(0,0,0,1.00);
+}
+
+a,
+a:visited{
+	color:yellow;
+	text-decoration: underline;
+}
+
+a.active{
+	color: aliceblue;
+}
+
+a:hover,
+link:hover{
+	color: aliceblue;
+}
+

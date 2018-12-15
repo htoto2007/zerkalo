@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /_notes/
+Disallow: /cgi-bin/
+Disallow: /*.html
+Allow: /rss.xml
+Allow: /rssy.xml
+Allow: /sitemap.xml
+Allow: /index.html
+Disallow: /*.htaccess
+host: https://thezerkalo.ru
+Sitemap: https://thezerkalo.ru/sitemap.xml
